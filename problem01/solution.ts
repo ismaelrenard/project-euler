@@ -1,4 +1,4 @@
-export function checkMultiples(n: number): number | string {
+const checkMultiples = (n: number): number | string => {
     let sum: number = 0
 
     if(n >= 1){
@@ -11,3 +11,5 @@ export function checkMultiples(n: number): number | string {
 
     return sum
 }
+
+export { checkMultiples }
